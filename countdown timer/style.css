@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #030200;
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  /* background-image: url('https://res.cloudinary.com/dj9m3f8ux/image/upload/v1688534741/Aquaman-6_heeq9b.jpg'); */
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  color: white;
+}
+
+h1 {
+  color: #ffd900;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size:50px;
+  letter-spacing:2px;
+  margin-bottom:20px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 4rem;
+ 
+}
+
+.countdown h2 {
+  font-size: 2rem;
+  color: #ecd20bed;
+}
+/* 
+@media (min-width: 768px) {
+  .countdown-container {
+    margin-left: 4rem;
+  }
+} */
